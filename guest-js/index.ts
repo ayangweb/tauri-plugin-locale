@@ -15,6 +15,6 @@ export const COMMAND = {
  * console.log(locale); // en-US
  * ```
  */
-export const getLocale = () => {
-  return invoke<string>(COMMAND.GET_LOCALE);
+export const getLocale = <T extends string = string>() => {
+  return invoke<T>(COMMAND.GET_LOCALE);
 };
