@@ -2,7 +2,7 @@
 
 > This plugin only works on tauri v2, if you need the v1 plugin, feel free to submit a PR!
 
-Why not use the `locale` method provided by tauri?
+**Why not use the `locale` method provided by tauri?**
 
 For example:
 
