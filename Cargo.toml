@@ -1,0 +1,21 @@
+[package]
+name = "tauri-plugin-locale"
+version = "1.0.0"
+authors = [ "ayangweb" ]
+description = "get the locale of the system."
+repository = "https://github.com/ayangweb/tauri-plugin-locale"
+keywords = ["tauri", "tauri-plugin", "locale"]
+license = "MIT"
+edition = "2021"
+rust-version = "1.77.2"
+exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
+links = "tauri-plugin-locale"
+
+[dependencies]
+tauri = { version = "2" }
+serde = "1"
+thiserror = "2"
+current_locale = "0.1"
+
+[build-dependencies]
+tauri-plugin = { version = "2", features = ["build"] }
